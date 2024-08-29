@@ -1,0 +1,14 @@
+
+database:
+  tbls:
+    appointments: APPOINTMENTS
+    address: ADDRESS
+  
+sql:
+  ddl:
+    appointments: "sql/ddl/create_tbl_appointments.sql"
+    address: "sql/ddl/create_tbl_address.sql"
+
+resource:
+  appointments: ".data/appointments.csv"
+  address: ".data/address.csv"
